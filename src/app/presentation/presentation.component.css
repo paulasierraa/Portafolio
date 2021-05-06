@@ -1,0 +1,30 @@
+*{
+    font-family:'Roboto',sans-serif  !important ;
+}
+.nav{
+    background-color: var(--darkpink);
+    line-height: 30px;
+}
+.nav a{
+    color: #FFFFFF;
+}
+.presentation{
+    background: url('../../assets/images/Rectangulo2.png');
+    height: 360px;
+    width: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.my-image .myname{
+    font-family: 'Mouse Memoirs' , sans-serif !important;
+    font-size: 98px;
+    color: #FFFFFF;
+    line-height: 110px;
+}
+.my-image .yellow-line{
+    background-color: var(--yellow);
+    width: 85px;
+    height: 10px;
+}
