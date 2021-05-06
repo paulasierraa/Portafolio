@@ -4,27 +4,78 @@
 .nav{
     background-color: var(--darkpink);
     line-height: 30px;
+    padding: 20px;
 }
 .nav a{
     color: #FFFFFF;
+    font-size: 26px;
+}
+.nav-item{
+    padding: 10px;
 }
 .presentation{
     background: url('../../assets/images/Rectangulo2.png');
-    height: 360px;
+    height: 600px;
     width: 100%;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    /*
+        position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #2c3e50;
+    z-index: 0;
+    transform: skewY(-5deg);
+    transform-origin: top left;
+    */
+}
+.my-image{
+    display: flex;
+    position: relative;
+    align-items: center;
+}
+.personal-information{
+    position: absolute;
+    left: -96px;
 }
 .my-image .myname{
     font-family: 'Mouse Memoirs' , sans-serif !important;
-    font-size: 98px;
+    font-size: 144px;
     color: #FFFFFF;
-    line-height: 110px;
+    
+    line-height: 120px;
 }
-.my-image .yellow-line{
+.yellow-line{
     background-color: var(--yellow);
     width: 85px;
     height: 10px;
+}
+.my-image .presentation-photo{
+    height: 578px;
+    width: 478px;
+}
+.profesion{
+    align-items: center;
+    justify-content: center;
+}
+.profesion p{
+    font-family: 'Mouse Memoirs' , sans-serif !important;
+    font-size:80px;
+    color: #FFFFFF;
+    margin-bottom: 0;
+}
+.profesion .yellow-line{
+    width: 132px;
+}
+.social-media--icon{
+    margin-right: 15px;
+}
+.social-media .github{
+    width: 45px;
 }
